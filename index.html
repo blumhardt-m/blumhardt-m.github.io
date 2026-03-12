@@ -1,107 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Michael Blumhardt — Independent Researcher</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 20px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.55;
-      color: #111;
-      background-color: #fff;
-    }
-    h1 {
-      font-size: 1.8em;
-      margin-bottom: 0.2em;
-    }
-    h2 {
-      font-size: 1.1em;
-      margin-top: 1.6em;
-      margin-bottom: 0.4em;
-      font-weight: 600;
-    }
-    p, ul {
-      margin-top: 0.4em;
-      margin-bottom: 0.8em;
-    }
-    ul {
-      padding-left: 1.2em;
-    }
-    li {
-      margin-bottom: 0.3em;
-    }
-    .meta {
-      color: #444;
-      font-size: 0.95em;
-    }
-    .small {
-      color: #444;
-      font-size: 0.95em;
-    }
-    a {
-      color: #0645ad;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Michael Blumhardt — Independent Researcher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  color: #111;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+  font-weight: 600;
+}
+
+p, ul {
+  margin-top: 0.4em;
+  margin-bottom: 0.8em;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+.meta {
+  color: #444;
+  font-size: 0.95em;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
 </head>
+
 <body>
 
 <h1>Michael Blumhardt</h1>
+
 <p class="meta">
-  Independent researcher<br>
-  Astrophysical catalogs, survey systematics, and statistical diagnostics
+Independent researcher<br>
+Large scientific datasets, survey systematics, and statistical diagnostics
 </p>
 
 <h2>Research Focus</h2>
 <ul>
-  <li>Catalog-level validation and uncertainty audits in large astronomical surveys</li>
-  <li>Astrometric, radial-velocity, and photometric systematics</li>
-  <li>Selection functions and completeness diagnostics</li>
-  <li>Cross-instrument and cross-catalog consistency checks</li>
-  <li>Reanalysis of public astronomical datasets with conservative inference</li>
+  <li>Validation and uncertainty audits in large scientific datasets</li>
+  <li>Statistical diagnostics for catalog-scale and high-dimensional data</li>
+  <li>Selection functions and completeness analysis</li>
+  <li>Cross-dataset and cross-instrument consistency checks</li>
+  <li>Reanalysis of public datasets using reproducible computational pipelines</li>
 </ul>
 
-<h2>Selected Prior Work</h2>
+<h2>Selected Work</h2>
 <ul>
   <li>
-    <strong>Strong gravitational lensing analysis -- Empirical study of lensing observables and systematics using public data.</strong><br>
-   </li>
+    <strong>Annotation version as a hidden degree of freedom in GWAS pathway interpretation</strong><br>
+    Quantifies how genome annotation evolution propagates through GWAS locus-to-gene mapping and pathway enrichment pipelines, demonstrating threshold amplification in enrichment analyses. (Target journal: Bioinformatics)
+  </li>
+
+  <li>
+    <strong>Background-Disjoint Cross-Validation Reveals Background-Dependent Errors in CNN Gravitational Lens Classifiers</strong><br>
+    Methodological analysis showing that standard cross-validation protocols can inflate reported performance of gravitational-lens classifiers due to background-dependent leakage. (Target journal: MNRAS / A&amp;A)
+  </li>
+
   <li>
     <strong>Gaia DR3 quasar parallax systematics</strong><br>
-    Diagnostic analysis of spatially correlated parallax residuals with emphasis on robustness under catalog selection and null controls.
+    Diagnostic analysis of spatially correlated parallax residuals in Gaia DR3 quasars with emphasis on robustness under catalog selection and null controls. (Under review, A&amp;A)
   </li>
-</ul>
-
-<h2>Computational and Methodological Work</h2>
-<p class="small">
-  Methods development focused on reproducibility, diagnostic testing, and conservative interpretation, with techniques transferable across scientific domains.
-</p>
-<ul>
-  <li>Design of falsifiable diagnostic tests for complex systems</li>
-  <li>Evaluation of uncertainty signals and failure modes in algorithmic outputs</li>
-  <li>Reproducible experimental pipelines and preregistered analysis protocols</li>
-  <li>Statistical validation and robustness testing of model-derived inferences</li>
 </ul>
 
 <h2>Methodological Posture</h2>
 <p>
-  My work emphasizes falsifiable diagnostics, conservative error characterization,
-  and identification of failure domains in public astronomical data products.
-  Projects are scoped to remain informative under null outcomes and to support
-  downstream scientific use rather than broad interpretive claims.
+My work focuses on identifying structural sources of error and uncertainty in large scientific data products.
+Analyses emphasize falsifiable diagnostics, conservative inference, and explicit calibration of statistical claims.
+Projects are designed to remain informative under null outcomes and to support downstream scientific use rather than broad interpretive conclusions.
 </p>
+
+<h2>Publications and Preprints</h2>
+<ul>
+  <li>
+    Blumhardt, M. (2026).
+    <em>Annotation version as a hidden degree of freedom in GWAS pathway interpretation: threshold amplification of modest locus-level drift.</em><br>
+    Repository:
+    <a href="https://github.com/blumhardt-m/annotation-drift-gwas">github.com/blumhardt-m/annotation-drift-gwas</a>
+  </li>
+</ul>
 
 <h2>Contact</h2>
 <p>
-  Email: <a href="mailto:blumhardt@gmail.com">blumhardt@gmail.com</a><br>
-  GitHub: <a href="https://github.com/blumhardt-m">https://github.com/blumhardt-m</a>
+Email: <a href="mailto:blumhardt@gmail.com">blumhardt@gmail.com</a><br>
+GitHub: <a href="https://github.com/blumhardt-m">github.com/blumhardt-m</a>
 </p>
 
 </body>
