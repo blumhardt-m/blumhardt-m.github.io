@@ -4,17 +4,16 @@ Source repository for the personal research page:
 
 https://blumhardt-m.github.io
 
-The site provides a brief overview of current research projects and methodological work involving large scientific datasets, including:
+The site provides a brief overview of current research projects and methodological work involving large scientific datasets across several scientific domains.
 
-- GWAS annotation drift and pathway enrichment analysis
-- Diagnostics of survey systematics in astronomical catalogs
-- Methodological work on reproducible statistical pipelines
+## Research Areas
 
-## Repository contents
+Current projects focus on statistical diagnostics, uncertainty auditing, and validation of large scientific data products, including:
 
-- `index.html` — main site page
+- Annotation drift and pathway enrichment sensitivity in GWAS analyses
+- Systematic error diagnostics in large astronomical surveys
+- Background-dependent evaluation of machine learning classifiers in astrophysical imaging
+- Identifiability limits in reduced collider observables using CMS Open Data
+- Reanalysis of public datasets using reproducible statistical pipelines
 
-## Contact
-
-Email: blumhardt@gmail.com  
-GitHub: https://github.com/blumhardt-m
+## Repository Contents
