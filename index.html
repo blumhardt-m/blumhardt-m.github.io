@@ -11,7 +11,7 @@ body {
   margin: 40px auto;
   padding: 0 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.55;
+  line-height: 1.6;
   color: #111;
   background-color: #fff;
 }
@@ -22,10 +22,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1em;
-  margin-top: 1.6em;
-  margin-bottom: 0.4em;
+  font-size: 1.15em;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
   font-weight: 600;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2px;
 }
 
 p, ul {
@@ -38,7 +40,7 @@ ul {
 }
 
 li {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.4em;
 }
 
 .meta {
@@ -68,46 +70,63 @@ Large scientific datasets, survey systematics, and statistical diagnostics
 
 <h2>Research Focus</h2>
 <ul>
-  <li>Validation and uncertainty audits in large scientific datasets</li>
+  <li>Validation and uncertainty diagnostics in large scientific datasets</li>
   <li>Statistical diagnostics for catalog-scale and high-dimensional data</li>
   <li>Selection functions and completeness analysis</li>
-  <li>Cross-dataset and cross-instrument consistency checks</li>
+  <li>Cross-dataset and cross-domain consistency checks</li>
   <li>Reanalysis of public datasets using reproducible computational pipelines</li>
 </ul>
 
 <h2>Selected Work</h2>
 <ul>
-  <li>
-    <strong>Annotation version as a hidden degree of freedom in GWAS pathway interpretation</strong><br>
-    Quantifies how genome annotation evolution propagates through GWAS locus-to-gene mapping and pathway enrichment pipelines, demonstrating threshold amplification in enrichment analyses. (Target journal: Bioinformatics)
-  </li>
 
-  <li>
-    <strong>Background-Disjoint Cross-Validation Reveals Background-Dependent Errors in CNN Gravitational Lens Classifiers</strong><br>
-    Methodological analysis showing that standard cross-validation protocols can inflate reported performance of gravitational-lens classifiers due to background-dependent leakage. (Target journal: MNRAS / A&amp;A)
-  </li>
+<li>
+<strong>Non-identifiability of Nuisance Mechanisms in Reduced Collider Observables</strong><br>
+Demonstrates that compression of collider events into reduced observables can produce practical degeneracy between distinct nuisance mechanisms. Inclusive missing transverse momentum distributions from CMS Open Data admit multiple nuisance explanations that are distinguishable only through conditional diagnostics.<br>
+<em>Under review, Journal of Instrumentation (JINST)</em>
+</li>
 
-  <li>
-    <strong>Gaia DR3 quasar parallax systematics</strong><br>
-    Diagnostic analysis of spatially correlated parallax residuals in Gaia DR3 quasars with emphasis on robustness under catalog selection and null controls. (Under review, A&amp;A)
-  </li>
+<li>
+<strong>Background-Disjoint Cross-Validation Reveals Background-Dependent Errors in CNN Gravitational Lens Classifiers</strong><br>
+Methodological analysis showing that conventional cross-validation protocols can inflate reported performance of gravitational-lens classifiers due to background-dependent leakage.<br>
+<em>Under review, Monthly Notices of the Royal Astronomical Society (MNRAS)</em>
+</li>
+
+<li>
+<strong>Gaia DR3 Quasar Parallax Systematics</strong><br>
+Diagnostic analysis of spatially correlated parallax residuals in Gaia DR3 quasars with emphasis on robustness under catalog selection and null controls.<br>
+<em>Under review, Astronomy &amp; Astrophysics (A&amp;A)</em>
+</li>
+
+<li>
+<strong>Annotation Version as a Hidden Degree of Freedom in GWAS Pathway Interpretation</strong><br>
+Quantifies how genome annotation evolution propagates through GWAS locus-to-gene mapping and pathway enrichment pipelines, demonstrating threshold amplification in enrichment analyses.<br>
+<em>Under review, Bioinformatics</em>
+</li>
+
 </ul>
 
 <h2>Methodological Posture</h2>
 <p>
-My work focuses on identifying structural sources of error and uncertainty in large scientific data products.
-Analyses emphasize falsifiable diagnostics, conservative inference, and explicit calibration of statistical claims.
-Projects are designed to remain informative under null outcomes and to support downstream scientific use rather than broad interpretive conclusions.
+My work focuses on identifying structural sources of uncertainty and error in large scientific data products. Analyses emphasize falsifiable diagnostics, conservative statistical inference, and explicit calibration of claims. Projects are designed to remain informative under null outcomes and to support downstream scientific use rather than broad interpretive conclusions.
 </p>
+
+<h2>Current Manuscripts</h2>
+<ul>
+<li>Collider observable identifiability using CMS Open Data — under review, JINST</li>
+<li>Background-disjoint validation for gravitational lens classifiers — under review, MNRAS</li>
+<li>Gaia DR3 quasar parallax systematics — under review, A&amp;A</li>
+<li>Annotation drift in GWAS pathway interpretation — under review, Bioinformatics</li>
+</ul>
 
 <h2>Publications and Preprints</h2>
 <ul>
-  <li>
-    Blumhardt, M. (2026).
-    <em>Annotation version as a hidden degree of freedom in GWAS pathway interpretation: threshold amplification of modest locus-level drift.</em><br>
-    Repository:
-    <a href="https://github.com/blumhardt-m/annotation-drift-gwas">github.com/blumhardt-m/annotation-drift-gwas</a>
-  </li>
+<li>
+Blumhardt, M. (2026).<br>
+<em>Annotation version as a hidden degree of freedom in GWAS pathway interpretation: threshold amplification of modest locus-level drift.</em><br>
+Repository:
+<a href="https://github.com/blumhardt-m/annotation-drift-gwas">github.com/blumhardt-m/annotation-drift-gwas</a>
+</li>
 </ul>
 
 <h2>Contact</h2>
